@@ -1,0 +1,271 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+  background: rgba(73, 155, 234, 1);
+  background: -moz-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(73, 155, 234, 1) 0%,
+    rgba(32, 124, 229, 1) 100%
+  );
+  background: -webkit-gradient(
+    radial,
+    center center,
+    0px,
+    center center,
+    100%,
+    color-stop(0%, rgba(73, 155, 234, 1)),
+    color-stop(100%, rgba(32, 124, 229, 1))
+  );
+  background: -webkit-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(73, 155, 234, 1) 0%,
+    rgba(32, 124, 229, 1) 100%
+  );
+  background: -o-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(73, 155, 234, 1) 0%,
+    rgba(32, 124, 229, 1) 100%
+  );
+  background: -ms-radial-gradient(
+    center,
+    ellipse cover,
+    rgba(73, 155, 234, 1) 0%,
+    rgba(32, 124, 229, 1) 100%
+  );
+  background: radial-gradient(
+    ellipse at center,
+    rgba(73, 155, 234, 1) 0%,
+    rgba(32, 124, 229, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=1 );
+  height: 90vh;
+  box-shadow: 0 4px 4px 2px rgb(173, 167, 167);
+}
+
+/* REUSABLE COMPONENTS */
+
+section {
+    padding: 100px 30px;
+}
+
+.section-box {
+  text-align: center;
+}
+
+.section-box h3,
+.section-box p {
+  text-align: left;
+}
+
+.section-box img {
+  width: 12rem;
+  padding-bottom: 60px;
+}
+
+.section-box p {
+  line-height: 150%;
+  color: #566061;
+  font-size: 0.9rem;
+}
+
+.section-box h3 {
+  font-weight: normal;
+  font-size: 1.6rem;
+  padding-bottom: 20px;
+  line-height: 150%;
+}
+
+.gray {
+  background-color: #dee0e2;
+}
+
+/* NAVIGATION */
+
+.logo {
+  font-size: 1.4rem;
+}
+
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 30px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: rgba(73, 155, 234, 1);
+  overflow: auto;
+}
+
+.navigation h1 {
+  font-weight: normal;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.main-nav {
+  display: flex;
+  list-style: none;
+  align-content: center;
+  align-items: center;
+}
+
+.main-nav li {
+  margin-left: 30px;
+}
+
+.main-nav a {
+  font-size: 1.2rem;
+  color: #566061;
+  transition: all 1s;
+
+}
+
+.main-nav a:hover {
+    color: #fff;
+}
+
+/* HEADER CONTENT */
+
+.header-content {
+  text-align: center;
+  padding-top: 50px;
+}
+
+.intro-header {
+  color: #fff;
+  font-weight: normal;
+  font-size: 2rem;
+  width: 90%;
+  margin: 60px auto 40px auto;
+  line-height: 150%;
+}
+
+.intro {
+    width: 85%;
+    text-align: left;
+    margin: auto;
+    line-height: 170%;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+.btn {
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid #fff;
+    padding: 13px 25px;
+    border-radius: 300px;
+}
+
+.btn-green {
+    background-color: #2ecc71;
+    border-color: #2ecc71;
+    margin-right: 20px;
+}
+
+
+/* SECTION WHO CAN USE */
+
+.use-content {
+    text-align: center;
+}
+
+.use-intro {
+    font-weight: normal;
+    font-size: 1.6rem;
+    padding-bottom: 30px;
+}
+
+.after-intro-text {
+    color: #566061;
+    width: 100%;
+    font-size: 1rem;
+    padding-bottom: 70px;
+}
+
+.box {
+    padding-bottom: 100px;
+}
+
+.use-img {
+    width: 10rem;
+    padding-bottom: 40px;
+}
+
+.img-name {
+    color: #000;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    font-size: 1.05rem;
+    padding-bottom: 20px;
+}
+
+.img-description { 
+    color: #566061;
+    line-height: 150%;
+    text-align: left;
+}
+
+
+/* GET STARTED */
+
+.get-started {
+  text-align: center;
+  background-color: rgba(73, 155, 234, 1);
+  color: #fff;
+  padding-bottom: 80px;
+}
+
+.get-started p {
+  padding-bottom: 50px;
+}
+
+.get-started h3 {
+  font-weight: normal;
+  font-size: 1.6rem;
+  padding-bottom: 30px;
+}
+
+.get-started p {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+footer {
+  background-color: #34495e;
+  color: #fff;
+  padding: 50px 30px;
+}
+
+footer a {
+  text-decoration: none;
+  color: #b9bdbd;
+  border-bottom: 1px dotted #fff;
+  font-size: 0.9rem;
+  padding-bottom: 1px;
+}
+
+footer h4 {
+  padding-bottom: 30px;
+}
+footer p {
+  padding-bottom: 20px;
+}
+
+footer p a {
+  cursor: pointer;
+}
